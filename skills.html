@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Portofolio</title>
+</head>
+<body>
+    <div class="topbar">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="home.html" target="_self">HOME</a>
+                </li>
+                <li>
+                    <a href="skills.html" target="_self">SKILLS</a>
+                </li>
+                <li>
+                    <a href="projects.html" target="_self">PROJECTS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="my-skills">
+        <h2>My Skills</h2>
+      </div>
+       <div class="skills-container">
+        <div class="skill html">
+          <div class="skill-name">HTML</div>
+          <div class="progress-bar">80%</div>
+        </div>
+        <div class="skill css">
+          <div class="skill-name">CSS</div>
+          <div class="progress-bar">70%</div>
+        </div>
+        <div class="skill javascript">
+          <div class="skill-name">JavaScript</div>
+          <div class="progress-bar">5%</div>
+        </div>
+        <div class="skill php">
+          <div class="skill-name">PHP</div>
+          <div class="progress-bar">0%</div>
+        </div>
+        <div class="skill database">
+          <div class="skill-name">Relational Database</div>
+          <div class="progress-bar">85%</div>
+        </div>
+      </div>
+      
+</body>
+</html>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 20px 20px;
+    }
+
+    .topbar .navbar ul li {
+        display: inline-block;
+        margin: 8px 8px;
+        width: 90px;
+    }
+
+    .topbar .navbar ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+
+    .topbar .navbar ul li a:hover,
+    .topbar .navbar ul li a:active,
+    .topbar .navbar ul li a:focus {
+        color: #077df3;
+        font-size: 20px;
+    }
+
+
+
+    .my-skills {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 25px;
+      font-family: Copperplate, Papyrus, fantasy;
+    }
+
+    .skills-container {
+      margin-left: 30px;
+    }
+
+    .skill {
+      margin-bottom: 30px;
+      text-align: left;
+      width: 50%; 
+      font-family: cursive;
+    }
+
+    .skill-name {
+      font-weight: bold;
+      font-family: cursive;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .progress-bar {
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      color: #0c0c0c;
+      font-weight: bold;
+      border-radius: 8px;
+      background: linear-gradient(to right, #077df3  80%, #c0f0cc 0%);
+    }
+ 
+    .html .progress-bar { width: 80%; }
+    .css .progress-bar { width: 70%; }
+    .javascript .progress-bar { width: 5%; }
+    .php .progress-bar { width: 1%; }
+    .database .progress-bar { width: 85%; } 
+    
+  </style>

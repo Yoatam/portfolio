@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portofolio</title>
+</head>
+<body>
+    <div class="topbar">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="home.html" target="_self">HOME</a>
+                </li>
+                <li>
+                    <a href="skills.html" target="_self">SKILLS</a>
+                </li>
+                <li>
+                    <a href="projects.html" target="_self">PROJECTS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-section"> 
+            <div class="title-box">   
+            <h1 class="about">Spotify Website Clone</h1>
+        </div>
+            <p class="paragraph"> Spotify is the leading music streaming platform. <br>
+                It offers a vast library of songs, podcasts, and curated playlists. <br>
+                 Users can seamlessly explore, create playlists, and enjoy personalized recommendations.</p>
+        </div>
+        <div class="photo-section"> 
+            <div class="photo-box">
+                <img src="./images/spotifyclone1.png" alt="Photo 1">
+                
+            </div>
+            <div class="photo-box">
+                <img src="./images/spotifyclone2 .png" alt="Photo 2">
+           
+            </div>
+            <div class="photo-box">
+                <img src="./images/spotifyclone3.png" alt="Photo 3">
+            
+            </div>
+            <div class="photo-box">
+                <img src="./images/spotifyclone4.png" alt="Photo 4">
+        
+            </div>
+        </div>
+        <div class="text-section"> 
+            <div class="title-box2"> 
+            <h1 class="abt">Real Estate Database</h1>
+            </div>
+            <p class="paragraph">Real Estate Database System is a dynamic and efficient solution crafted to simplify the management and organization of real estate information. <br>
+                Specifically designed for the modern real estate industry, <br>
+                this database system serves as a comprehensive platform for real estate professionals, agents, and clients.
+            </p>
+        </div>
+        <div class="photo-section"> 
+            <div class="photo-box">
+                <img src="./images/rdb1.png" alt="Photo 1">
+            </div>
+            <div class="photo-box">
+                <img src="./images/rdb2.png" alt="Photo 2">
+            </div>
+            <div class="photo-box">
+                <img src="./images/rdb3.png" alt="Photo 3">
+            </div>
+            <div class="photo-box">
+                <img src="./images/rdb4.png" alt="Photo 4">
+            </div>
+        </div>
+      
+    </div>
+    </div>
+    
+</body>
+</html>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 20px 20px;
+    }
+
+    .topbar .navbar ul li {
+        display: inline-block;
+        margin: 8px 8px;
+        width: 90px;
+    }
+
+    .topbar .navbar ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+
+    .topbar .navbar ul li a:hover,
+    .topbar .navbar ul li a:active,
+    .topbar .navbar ul li a:focus {
+        color: #077df3;
+        font-size: 20px;
+    }
+
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-section {
+    text-align: center;
+    font-family: sans-serif ;
+    padding: 40px;
+}
+
+.title-box {
+        display: inline-block;
+        padding: 15px;
+        background-color: rgb(27, 27, 27);
+        border-radius: 35px;
+        margin: 30px;
+        box-shadow: 14px 24px 18px rgb(196, 193, 193);
+ }
+
+    .about {
+        color: #07d44f;
+    }
+.title-box2 {
+        display: inline-block;
+        padding: 13px;
+        background-color: #d1d1f3;
+        border-radius: 35px;
+        margin: 30px;
+        box-shadow: 14px 24px 18px rgb(221, 218, 218);
+ }
+
+    .abt {
+        color: #077df3;
+    }
+    .paragraph{
+        font-size: 18px; 
+        color: #000000;
+        line-height: 1.5; 
+    }
+
+.photo-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.photo-box {
+    width: 450px;
+    box-shadow: 14px 24px 18px grey;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo-box img {
+    max-width: 100%;
+    height: auto;
+}

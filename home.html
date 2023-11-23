@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Portfolio</title>
+</head>
+
+<body>
+
+    <div class="topbar">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="home.html" target="_self">HOME</a>
+                </li>
+                <li>
+                    <a href="skills.html" target="_self">SKILLS</a>
+                </li>
+                <li>
+                    <a href="projects.html" target="_self">PROJECTS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="section1">
+        <img src="./images/001.jfif" alt="Profile Picture" class="profilepic">
+        <h1>YOATAM</h1> <br>
+        <h2>WEB DEVELOPER</h2>
+    </div>
+ <div class="box">
+    <div class="box1">
+        <h1 class="aboutme">About Me</h1>
+        <p>Hi, I'm Yoatam Mussie, a third yearcomputer science major that's fond of creating websites and applications that are both functional and satisfying. Check out my portfolio to see some of my works.</p>
+    </div>
+    <div class="box2">
+        <h1 class="contact">Contacts</h1>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="./images/phone.png" alt="Phone Icon">
+                <p>+251933321404</p>
+            </div>
+            <div class="contact-item">
+                <img src="./images/gmail.png" alt="Gmail Icon">
+                <p>yoatammussie22@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <img src="./images/telegram.png" alt="Social Icon">
+                <p>@drizzy7</p>
+            </div>
+            <div class="contact-item">
+                <img src="./images/instagram.png" alt="Social Icon">
+                <p>@its.yoatam</p>
+            </div>
+           
+            
+        </div>
+    </div>
+</div>
+    
+
+
+</body>
+</html>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        padding: 20px 20px;
+    }
+
+    .topbar .navbar ul li {
+        display: inline-block;
+        margin: 8px 8px;
+        width: 150px;
+    }
+
+    .topbar .navbar ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+
+    .topbar .navbar ul li a:hover,
+    .topbar .navbar ul li a:active,
+    .topbar .navbar ul li a:focus {
+        color: #077df3;
+        font-size: 30px;
+    }
+
+    #section1 {
+        background-color: black;
+        color: rgb(250, 250, 250);
+        text-align: center;
+        padding: 30px;
+        font-size: 25px;
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+
+
+    .profilepic {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        border: 3px solid #0a0a0a;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box {
+    display: flex;
+}
+    .box1 {
+        width: 1000px;
+        height: auto;
+        padding: 40px;
+        margin: 40px;
+        font-size: 30px;
+        font-family: Copperplate, Papyrus, fantasy;
+        box-shadow: 14px 24px 18px grey;
+        border-radius: 4%;
+    }
+
+    .aboutme {
+        font-size: 60px;
+        font-family: Copperplate, Papyrus, fantasy;
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+    }
+
+    .box2 {
+        width: 800px;
+        height: auto;
+        padding: 10px;
+        margin: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Copperplate, Papyrus, fantasy;
+        box-shadow: 14px 24px 18px grey;
+        border-radius: 4%;
+    }
+
+    .contact {
+        font-size: 60px;
+        font-family: Copperplate, Papyrus, fantasy;
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+    }
+    .contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-item img {
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 10px;
+}
+</style>
